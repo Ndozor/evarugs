@@ -1,0 +1,127 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background: #d8cbcb;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  height: 77px;
+  background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+}
+
+.header span {
+  color: #fff;
+}
+
+.header__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 77px;
+}
+
+.header__telephone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__telephone-text {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.header__map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__map-text {
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+.header__inst {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__inst-text {
+  margin-left: 10px;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  background: #fff;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.footer__soc-img {
+  margin-top: 10px;
+}
+
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.footer__menu > div {
+  margin-top: 170px;
+}
+
+.footer__menu > div > div {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer__menu > div > span {
+  display: block;
+  margin-top: 10px;
+}
+
+.footer__dicoration-small {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+.footer__dicoration-big {
+  position: absolute;
+  top: 50%;
+  left: 72%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
