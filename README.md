@@ -1,1 +1,1 @@
-# evarugs
+# evarugs - шапка и футер
